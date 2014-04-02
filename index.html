@@ -8,7 +8,7 @@
 <body>
 	<div class='wrapper'>
 		<section class='startup-look' id='startup-look-section'>
-			<header>
+			<header class='infinite-header'>
 				<img src="infinite.png">
 				<h1>Startup</h1>
 				<ul>
@@ -28,7 +28,7 @@
 
     <div class='wrapper'>
     	<section class='startup-buy' id='startup-buy-section'>
-    	    <header>
+    	    <header class='infinite-header'>
 				<img src="infinite.png">
 				<h1>Startup</h1>
 				<ul>
@@ -40,34 +40,32 @@
 			</header>
 			<article>
 				<h1>We`ve created the product that will help your startup to look even better.</h1>
-				<div class='button' id='learn-btn'>
-					<h4>Learn More</h4>
-				</div>
-				<div class='button' id='buy-btn'>
-					<h4>Buy Now for $9</h4>
-				</div>
+				<button type='submit' class='button' id='learn-btn'>Learn More</button>
+				<button type='submit' class='button' id='buy-btn'>Buy Now for $9</button>
 			</article>   		
     	</section>
     </div>
 
-    <div class='wrapper'>
-    	<div class='header-white'>
+   	<div class='header-white'>
+        <header class='infinite-header'>
     		<img src="infinite.png">
 		    <h1>Startup</h1>
-			<ul>
+      <button type='button' class='button' id='sign-btn'>Sign In</button>
+      <ul>
 				<li>Home</li>
 					<li>Work</li>
 					<li>Blog</li>
 					<li>Contact</li>
 				</ul>
-			<div clss='button-sml' id='sign-btn'>
-                <h4>Sign In</h4>
-            </div>
+          </header>
     	</div>
+    <div class='wrapper'>
     	<section class='awesome' id='awesome-section'>
-    		<h1>Twenty five awesomesamples</h1>
-    		<p>Lorem ipsum Sint commodo ullamco ullamco exercitation Excepteur occaecat fugiat nisi cupidatat in adipisicing aute laborum labore dolore in ex esse aliqua eu culpa occaecat non irure ad dolor ut mollit fugiat. Lorem ipsum Aliquip in Ut qui qui qui officia ad qui dolor incididunt ullamco Duis fugiat ex.</p>
-    	</section>
+        <article>
+    		<h1>Twenty five awesome samples</h1>
+    		<p>Lorem ipsum Sint commodo ullamco ullamco exercitation Excepteur occaecat fugiat nisi cupidatat in adipisicing aute laborum</p>
+    	  </article>
+      </section>
     </div>
 
     <div class='wrapper'>
@@ -75,12 +73,8 @@
     		<article>
     			<h1>Startup Design Framework is coming!</h1>
     			<p>The Second Sneak-Peek of Startup Design Framework</p>
-    			<div class='button' id='join-btn'>
-    				<h4>Join our startup</h4>
-    			</div>
-    			<div class='button-sml' id='join-section'>
-    				<h4>Sign In</h4>
-    			</div>
+    			<button type='button' class='button' id='join-btn'>Join our startup</button>
+    			<button type='button' class='button' id='sign-btn2'>Sign In</button>
     		</article>
     	</section>
     </div>
@@ -89,6 +83,7 @@
     	<section class='mailapp' id='mailapp-section'>
     		<header>
     			<img src="minihome.png">
+          <img src="miniserch.png">
     			<ul>
     				<li>Home</li>
     				<li>Work</li>
@@ -96,7 +91,6 @@
     				<li>Blog</li>
     				<li>Contacts</li>
     			</ul>
-    			<img src="miniserch.png">
     		</header>
     		<article>
     			<img src="mic.png">
@@ -108,8 +102,9 @@
 
     <div class='wrapper'>
     	<section class='design-code' id='design-code-section'>
-    		<header>
+    		<header class='infinite-header'>
     			<img src="infinite.png">
+        <img src="minipic.png">
 		        <h1>Startup</h1>
 			    <ul>
 				<li>Home</li>
@@ -117,7 +112,6 @@
 					<li>Blog</li>
 					<li>Contact</li>
 				</ul>
-				<img src="minipic.png">
     		</header>
     		<article>
     			<h1>You have the design, you have the code</h1>
@@ -125,19 +119,21 @@
     			<img src="momvideo.png">
     		</article>
     		<footer>
-    			<form method='get'>
+        	<form method='get'>
+            <div id='emailconf'>
     				<input type='email' class='form-control' id='inputemail1' placeholder='Your e-mail'>
     				<input type='password' class='form-control' id='password1' placeholder='Password'>
     				<input type='password' class='form-control' id='confpword1' placeholder='Confirmation'>
     				<button type='submit' class='btn'>Sign Up</button>
+          </div>
     			</form>
     		</footer>
     	</section>
     </div>
 
     <div class='wrapper'>
-    	<section class='desgin-code-info' id='design-code-info-section'>
-    		<header>
+    	<section class='design-code-info' id='design-code-info-section'>
+    		<header class='infinite-header'>
     			<img src="infinite.png">
     			<h1>Startup</h1>
     		</header>
@@ -148,22 +144,26 @@
     			<h1>You have the design, you have the code</h1>
     			<p>Lorem ipsum Nulla irure culpa Ut officia ea in qui laboris elit in ad dolor anim do elit ea incididunt ad Ut.</p>
     		    </section>
-    		    <section>
-    		    	<tr>
-    		    		<th>Block Model</th>
-    		    		<td>Lorem ipsum Nisi sint cupidatat id ea enim laborum in ullamco sunt voluptate minim dolore pariatur et Duis officia.</td>
-    		    		<th>HTML 5,Less,CSS 3</th>
-    		    		<td>Lorem ipsum Labore exercitation incididunt exercitation qui cupidatat reprehenderit qui qui in non tempor ad dolor minim cillum.</td>
-    		    		<th>Easy to use</th>
-    		    		<td>Lorem ipsum Nulla qui labore consectetur veniam in nisi id esse laboris aliqua.</td>
-    		    	</tr>
+    		    <section id='main-info-section'>
+    		    	<div class='block-info'>
+    		    		<h2>Block Model</h2>
+    		    		<p>Lorem ipsum Nisi sint cupidatat id ea enim laborum in ullamco sunt voluptate minim dolore pariatur et Duis officia.</p>
+              </div>
+              <div class='block-info'>
+    		    		<h2>HTML 5,Less,CSS 3</h2>
+    		    		<p>Lorem ipsum Labore exercitation incididunt exercitation qui cupidatat reprehenderit qui qui in non tempor ad dolor minim cillum.</p>
+              </div>
+              <div class='block-info'>
+    		    		<h2>Easy to use</h2>
+    		    		<p>Lorem ipsum Nulla qui labore consectetur veniam in nisi id esse laboris aliqua.</p>
+    		    	</div>
     		    </section>
     		</article>
     	</section>
     </div>
 
-    <div class='wrapper'>
     	<div class='header-white'>
+        <header class='infinite-header'>
     		<img src="infinite.png">
 		    <h1>Startup</h1>
 			<ul>
@@ -172,7 +172,9 @@
 					<li>Portfolio</li>
 					<li>Contact</li>
 				</ul>
+      </header>
 		</div>
+    <div class='wrapper'>
 		<section class='infimg' id='infimg-section'>
 			<article>
 				<h1>Startup Design Framework</h1>

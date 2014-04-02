@@ -1,0 +1,342 @@
+body {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.428em;
+}
+.wrapper {
+  background-color: #2C3F50;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.header-white {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.startup-look,.startup-buy,
+.awesome, .framework, .mailapp,
+.design-code, .design-code-info,
+.startupbox, .wrapper-dark, .components,
+.videoemail, .footer-better,.desgn-code-info,
+.infimg, .header-white {
+  width: 980px;
+  padding: 40px 80px;
+  margin: 0 auto;
+}
+.infinite-header  {
+  overflow: hidden;
+}
+
+.infinite-header img{
+  float: left;
+  width: 55px;
+  height: 55px;
+}
+.infinite-header h1 {
+  color: #fffeff;
+  float: left;
+  padding:16px 0;
+  font-size: 28px;
+  margin:auto 15px;
+}
+
+.infinite-header ul {
+  overflow: hidden;
+  float: right;
+  padding: 15px 0;
+}
+
+.infinite-header li {
+  overflow: hidden;
+  font-size: 12px;
+  color: #fffeff;
+  padding-left:30px;
+  display: inline;
+  text-transform: uppercase;
+}
+#startup-look-section article {
+  margin: 76px 0 38px 0 ;
+}
+#startup-look-section article h1 {
+  font-size: 38px;
+  color: #fffeff;
+  line-height: 1.228em;
+  width: 80%;
+}
+#startup-look-section article p {
+  font-size: 30px;
+  color: #fffeff;
+  line-height: 1.228em;
+  width: 80%;
+  font-weight: 200;
+  margin: 20px 0;
+} 
+#startup-look-section article img {
+  margin: 20px 0;
+  width: 45px;
+  height: 22px;
+}
+
+#startup-buy-section .infinite-header ul li {
+  text-transform: none;
+  font-size: 20px;
+}
+#startup-buy-section article {
+  margin: 100px 0 120px 0 ;
+  text-align: center;
+}
+#startup-buy-section article h1 {
+  font-size: 36px;
+  line-height: 1.228em;
+  color:#fffeff;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px auto;
+}
+.button {
+  width: 180px;
+  height: 43px;
+  background-color: #428BCA;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid #307DBF;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 300;
+}
+#startup-buy-section article button {
+  margin: 50px 10px;
+}
+#buy-btn {
+  background-color: #1BBC9B;
+  border: 1px solid #1BBC9B;
+}
+body > div.header-white > header > h1{
+  color: #2B3F51;
+  margin: auto 0;
+}
+body > div.header-white > header > ul > li {
+  color: #929C9B;
+}
+#sign-btn {
+  width: 90px;
+  margin-left: 30px;
+  float: right;
+}
+#awesome-section article{
+  margin: 140px 0 70px 0;
+}
+#awesome-section h1 {
+  font-size: 36px;
+  line-height: 1.228em;
+  color:#fffeff;
+  font-weight: 200;
+  margin: 20px 0;
+}
+#awesome-section p {
+  font-size: 22px;
+  line-height: 1.428em;
+  width: 60%;
+  color:#929C9B;
+  font-weight: 200;
+}
+#framework-section article {
+  margin: 300px 0;
+}
+#framework-section article h1 {
+  width: 50%;
+  font-size: 46px;
+  line-height: 1.228em;
+  color:#fffeff;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#framework-section article p {
+  width: 60%;
+  font-size: 34px;
+  line-height: 1.228em;
+  color:#fffeff;
+  font-weight: 100;
+  margin: 40px 0;
+}
+#sign-btn2 {
+  width: 100px;
+  margin-left: 10px;
+  background-color: #7E8C8D;
+  border: 1px solid #7E8C8D;
+}
+#mailapp-section>header>img {
+  float: left;
+}
+#mailapp-section header img:nth-child(2) {
+  float: right;
+}
+#mailapp-section ul {
+text-align: center;
+}
+#mailapp-section li {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 12px;
+  color: #fffeff;
+  padding-left:30px;
+  display: inline;
+  text-transform: uppercase;
+}
+#mailapp-section>article>img {
+  width: 275px;
+  height: 115px;
+  margin: 200px 0 150px 0;
+} 
+#mailapp-section article h1 {
+  font-size: 36px;
+  color:#fffeff;
+}
+#mailapp-section article p {
+  font-size: 26px;
+  color:#a0a0a0;
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+#design-code-section header img:nth-child(2){
+  width:70px;
+  height: 20px;
+  float: right;
+  margin: 17px 0;
+}
+#design-code-section header ul {
+  float: none;
+  text-align: center;
+}
+#design-code-section article {
+  text-align: center;
+  margin: 150px 0;
+}
+#design-code-section article h1 {
+  font-size: 46px;
+  color:#fffeff;
+}
+#design-code-section article p {
+  font-size: 30px;
+  color:#a0a0a0;
+  width: 60%;
+  margin: 50px auto;
+  line-height: 1.228em;
+  font-weight: 200; 
+}
+#design-code-section article img {
+  width: 250px;
+  height: 150px;
+}
+#design-code-section footer form {
+text-align: center;
+}
+.form-control {
+  width: 150px;
+  height: 34px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  font-size: 14px;
+  padding: 0px 12px;
+  margin-left: 10px;
+}
+.btn {
+  width: 140px;
+  height: 35px;
+  background-color: #1BBC9B;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid #1BBC9B;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 10px;
+}
+#emailconf {
+  width: 750px;
+  background-color: white;
+  padding: 15px 0;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+#main-section  {
+  margin: 150px 0;
+  text-align: center;
+  overflow: hidden;
+
+}
+#main-section>img {
+  width: 250px;
+  height: 150px;
+  margin: 50px 0;
+}
+#main-section h1 {
+  font-size: 48px;
+  margin: 25px 0;
+  color: #fffeff;
+  font-weight: 300;
+  line-height: 1.228em;
+}
+#main-section > p {
+  font-size: 28px;
+  width: 50%;
+  margin: 20px 0;
+  color: #a0a0a0;
+  font-weight: 300;
+  line-height: 1.228em;
+  margin: 0 auto;
+}
+.block-info {
+  width: 31%;
+  display: inline-block;
+  float: left;
+}
+.block-info h2{
+  color: #fffeff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+.block-info p {
+  color:#a0a0a0;
+  line-height: 1.228em;
+  width: 80%;
+}
+#main-info-section > div:nth-child(1) {
+  margin-left: 40px;
+}
+#main-info-section {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+body > div:nth-child(9) > header > ul {
+  float: left;
+  margin-left: 109px;
+}
+#infimg-section{
+  text-align: center;
+}
+#infimg-section h1 {
+  font-size: 48px;
+  margin: 25px 0;
+  color: #fffeff;
+  font-weight: 300;
+  line-height: 1.228em;
+  margin-top: 150px;
+}
+#infimg-section p {
+    font-size: 28px;
+  width: 50%;
+  margin: 20px 0;
+  color: #a0a0a0;
+  font-weight: 300;
+  line-height: 1.228em;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+#infimg-section img {
+  width: 830px;
+  height: 310px;
+  margin-bottom: -45px;
+}
