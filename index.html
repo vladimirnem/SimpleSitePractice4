@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="reset.css">
@@ -186,9 +186,9 @@
 
 	<div class='wrapper'>
 		<section class='startupbox' id='startupbox-section'>
-			<header>
-				<img src="comm.png">
+			<header class='infinite-header'>
 				<ul>
+          <li><img src="comm.png"></li>
 					<li>Upcoming Events</li>
 					<li>Subscriptions</li>
 					<li>Work</li>
@@ -212,45 +212,44 @@
 		</section>
 	</div>
 
-	<div class='wrapper'>
-		<div class='wrapper-dark' id='wrapper-dark-header'>
+    <div class='wrapper-dark'>
+		<div class='wrapper-dark-header'>
+      <header class='infinite-header'>
 			<h1>Startup</h1>
+      <button class='button' id='btn-dark'>Buy Now</button>
 			<ul>
 				<li>Home</li>
 				<li>Work</li>
 				<li>Blog</li>
 				<li>Contact</li>
 			</ul>
-			<div clss='button-sml' id='sign-btn'>
-                <h4>Buy Now</h4>
-            </div>
+      </header>
+    </div>
 		</div>
+      <div class='wrapper'>
 		<section class='components' id='components-section'>
 			<article>
 				<h1>Startup Framework is a set of components</h1>
 				<p>Lorem ipsum Quis ut consequat proident consectetur quis laboris in est elit culpa quis anim adipisicing in.</p>
-				<img src="discl.png">
+				<img src="disc.png">
 			</article>
 		</section>
 	</div>
 
-	<div class='wrapper'>
-		<div class='wrapper-white'>
-			<header>
-				<img src="infinite.png">
-				<h1>Startup</h1>
-			    <ul>
-				<li>Home</li>
-					<li>Company</li>
-					<li>Portfolio</li>
-					<li>Blog</li>
-					<li>Contact</li>
-				</ul>
-			<div clss='button-sml' id='sign-btn'>
-                <h4>Sign In</h4>
-            </div>
-			</header>		
-		</div>
+      <div class='header-white'>
+        <header class='infinite-header'>
+        <img src="infinite.png">
+        <h1>Startup</h1>
+      <button type='button' class='button' id='sign-btn'>Sign In</button>
+      <ul>
+        <li>Home</li>
+          <li>Work</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+          </header>
+      </div>
+      <div class='wrapper'>
 		<section class='videoemail' id='videoemail-section'>
 			<img src="video.png">
 			<article>
@@ -260,13 +259,14 @@
     				<input type='email' class='form-control' id='inputemail2' placeholder='Your e-mail'>
     				<input type='password' class='form-control' id='password2' placeholder='Password'>
     				<input type='password' class='form-control' id='confpword2' placeholder='Confirmation'>
-    				<button type='submit' class='btn'>Sign Up</button>
+    				<button type='submit' class='btn' id='long-signup'>Sign Up</button>
 				</form>
 				<p>Lorem ipsum Ut ad Excepteur voluptate dolore.</p>
 			</article>
 		</section>
 	</div>
 
+  <!--<div class='endless'>-->
 	<div class='wrapper'>
 		<div id='footer-block'>
 			<section class='footer-better' id='footer-better-section'>
@@ -281,6 +281,9 @@
 				</article>
 			</section>
 		</div>
+  </div>
+
+  <div class='blue-wrapper'>
 		<div class='footer-block2'>
 			<section class='footer-reg' id='footer-reg-section'>
 				<img src="comm2.png">
