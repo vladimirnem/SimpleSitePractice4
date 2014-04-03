@@ -16,11 +16,6 @@ body {
   background-color: #22323E;
   overflow: hidden;
 }
-.endless {
-  width: 980px;
-  padding: 40px 80px;
-  margin: 0 auto;
-}
 .startup-look,.startup-buy,
 .awesome, .framework, .mailapp,
 .design-code, .design-code-info,
@@ -197,6 +192,7 @@ text-align: center;
   width: 275px;
   height: 115px;
   margin: 200px 0 150px 0;
+    padding-left: 350px;
 } 
 #mailapp-section article h1 {
   font-size: 36px;
@@ -482,6 +478,118 @@ body > div:nth-child(9) > header > ul {
   font-size: 12px;
   margin-top: 20px;
 }
-.endless {
+.endles {
   overflow: hidden;
+}
+.endles div.wrapper {
+  width: 50%;
+  float: left;
+  margin-bottom: 0;
+}
+.endles div.blue-wrapper {
+  width: 50%;
+  float: right;
+  background-color: #3399DB;
+}
+#last-wrapper {
+  margin: 0;
+  border-right: 1px; 
+}
+#footer-better-section {
+  width: 490px;
+  float: right;
+  overflow: hidden;
+}
+#footer-better-section header {
+  margin-bottom: 200px;
+}
+#footer-better-section header img {
+  width: 56px;
+  height: 56px;
+  float: left;
+}
+#footer-better-section header h1 {
+  color: #fffeff;
+  float: left;
+  font-size: 22px;
+  margin:auto 10px;
+  margin-top: 16px;
+}
+#footer-better-section header p {
+  float: right;
+  color: #a0a0a0;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+
+}
+#footer-better-section {
+  padding-right: 0;
+  padding-left: 0;
+}
+#footer-better-section article h1 {
+  width: 70%;
+  font-size: 22px;
+  line-height: 1.428em;
+  color: #fffeff;
+  margin-bottom: 40px;
+}
+#footer-better-section article p {
+  width: 70%;
+  font-size: 20px;
+  line-height: 1.428em;
+  color: #a0a0a0;
+  margin-bottom: 360px;
+}
+
+#footer-reg-section {
+  padding-left: 0;
+  padding-right: 0;
+  width: 490px;
+  text-align: center;
+}
+#footer-reg-section>img {
+  width: 40px;
+  height: 40px;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+#footer-reg-section article h1 {
+  font-size: 28px;
+  color: white;
+  line-height: 1.448em;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+#footer-reg-section article p {
+  font-size: 14px;
+  color: white;
+  line-height: 1.428;
+  text-transform: uppercase;
+}
+#footer-reg-section article img {
+  width: 150px;
+  height: 140px;
+  margin: 40px auto;
+  padding-right: 30px;
+
+}
+#btnyel {
+  background-color: #FFF659;
+  border-color: #FFF659;
+  margin-top: 150px;
+  color: #2B98DE;
+}
+#footer-reg-section > img:nth-child(3) {
+  margin-top: 80px;
+  float: right;
+}
+#design-code-info-section > article > img {
+  width: 15px;
+  height: 150px;
+  float: left;
+  margin-top: 200px;
+  margin-left: -40px;
 }
